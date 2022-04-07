@@ -55,6 +55,31 @@ body {
     background-color:rgb(20,41,64);
   }
 
+  .columnProjectImage {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 4.5vh;
+    margin-right: 4.5vh;
+    margin-bottom: 4.5vh;
+    height: 40vh; /* Should be removed. Only for demonstration */
+    background-color:rgb(20,41,64);
+    text-align: right;
+  }
+  .columnProjectText {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 3;
+    color: white;
+    margin-top: 6vh;
+    margin-left: 4.5vh;
+    margin-right: 5.5vh;
+    margin-bottom: 4.5vh;
+    height: 40vh; /* Should be removed. Only for demonstration */
+    background-color:rgb(20,41,64);
+  }
   .column3 {
     -webkit-flex: 1;
     -ms-flex: 1;
