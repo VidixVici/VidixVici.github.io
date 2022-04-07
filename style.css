@@ -114,6 +114,17 @@ body {
     color: white;
     margin: auto 1.3vh;
   }
+#titleSocials {
+    color: white;
+    margin: auto .65vh;
+    height: 3vh;
+  }
+#titleSocialsEnd {
+  color: white;
+  margin: auto .65vh;
+  height: 3vh;
+  margin-right: 2.3vh;
+}
 #titleEnd {
     color: white;
     margin: auto 1.3vh;
