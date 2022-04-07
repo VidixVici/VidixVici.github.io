@@ -1,173 +1,197 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(20,41,64);
-  }
+html,
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgb(20, 41, 64);
+}
 
 body {
-    font-family: 'Futura';
-    font-weight: 100;
-  }
-.mainBG {
-    display: flex;
-    flex: row;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(20,41,64);
-    
+	font-family: 'Futura';
+	font-weight: 100;
 }
+
+.mainBG {
+	display: flex;
+	flex: row;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(20, 41, 64);
+}
+
 .header {
-      top: 0;
-      position: fixed;
-      display: flex;
-      flex: row;
-      width: 100%;
-      height: 4.5vh;
-      background-color: rgb(41,41,41);
-  }
+	top: 0;
+	position: fixed;
+	display: flex;
+	flex: row;
+	width: 100%;
+	height: 4.5vh;
+	background-color: rgb(41, 41, 41);
+}
+
 
 /* Container for flexboxes */
+
 .row {
-    display: -webkit-flex;
-    display: flex;
-  }
+	display: -webkit-flex;
+	display: flex;
+}
 
 .column1 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-top: 4.5vh;
-    height: 95.5vh; /* Should be removed. Only for demonstration */
-    background: url(https://i.imgur.com/sZZVFCk.png);
-    background-size: cover; 
-  }
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: 4.5vh;
+	height: 95.5vh;
+	/* Should be removed. Only for demonstration */
+	background: url(https://i.imgur.com/sZZVFCk.png);
+	background-size: cover;
+}
 
 .column2 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    color: white;
-    margin-top: 6vh;
-    margin-left: 4.5vh;
-    margin-right: 4.5vh;
-    margin-bottom: 4.5vh;
-    height: 82vh; /* Should be removed. Only for demonstration */
-    background-color:rgb(20,41,64);
-  }
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	color: white;
+	margin-top: 6vh;
+	margin-left: 4.5vh;
+	margin-right: 4.5vh;
+	margin-bottom: 4.5vh;
+	height: 82vh;
+	/* Should be removed. Only for demonstration */
+	background-color: rgb(20, 41, 64);
+}
 
-  .columnProjectImage {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    color: white;
-    margin-top: 6vh;
-    margin-left: 4.5vh;
-    margin-right: 4.5vh;
-    margin-bottom: 4.5vh;
-    height: 40vh; /* Should be removed. Only for demonstration */
-    background-color:rgb(20,41,64);
-    text-align: right;
-  }
-  .columnProjectText {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 3;
-    color: white;
-    margin-top: 6vh;
-    margin-left: 4.5vh;
-    margin-right: 5.5vh;
-    margin-bottom: 4.5vh;
-    height: 40vh; /* Should be removed. Only for demonstration */
-    background-color:rgb(20,41,64);
-  }
-  .column3 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-top: 4.5vh;
-    height: 95.5vh; /* Should be removed. Only for demonstration */
-    background: url(https://i.imgur.com/OiESGDF.jpg);
-    background-size: cover; 
-  }
+.columnProjectImage {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	color: white;
+	margin-top: 6vh;
+	margin-left: 4.5vh;
+	margin-right: 4.5vh;
+	margin-bottom: 4.5vh;
+	height: 40vh;
+	/* Should be removed. Only for demonstration */
+	background-color: rgb(20, 41, 64);
+	text-align: right;
+}
 
-  .column4 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-top: 4.5vh;
-    height: 95.5vh; /* Should be removed. Only for demonstration */
-    background: url(https://i.imgur.com/iCbUwiE.png);
-    background-size: cover; 
-  }
+.columnProjectText {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 3;
+	color: white;
+	margin-top: 6vh;
+	margin-left: 4.5vh;
+	margin-right: 5.5vh;
+	margin-bottom: 4.5vh;
+	height: 40vh;
+	/* Should be removed. Only for demonstration */
+	background-color: rgb(20, 41, 64);
+}
 
-  .column5 {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-top: 4.5vh;
-    height: 95.5vh; /* Should be removed. Only for demonstration */
-    background: url(https://i.imgur.com/mSm7olf.png);
-    background-size: cover; 
-  }
+.column3 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: 4.5vh;
+	height: 95.5vh;
+	/* Should be removed. Only for demonstration */
+	background: url(https://i.imgur.com/OiESGDF.jpg);
+	background-size: cover;
+}
 
- 
+.column4 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: 4.5vh;
+	height: 95.5vh;
+	/* Should be removed. Only for demonstration */
+	background: url(https://i.imgur.com/iCbUwiE.png);
+	background-size: cover;
+}
+
+.column5 {
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: 4.5vh;
+	height: 95.5vh;
+	/* Should be removed. Only for demonstration */
+	background: url(https://i.imgur.com/mSm7olf.png);
+	background-size: cover;
+}
 
 .column {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    margin-top: 4.5vh;
-    height: 95.5vh; /* Should be removed. Only for demonstration */
-  }
-  
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-top: 4.5vh;
+	height: 95.5vh;
+	/* Should be removed. Only for demonstration */
+}
+
 #centerIm {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    height: 100vh;
-    width: 100vh;
-    padding-top: 4vh;
-    background: url("https://i.imgur.com/YJMzoTP.png") no-repeat;
-    background-position: center; /* 4% might be centered */
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	height: 100vh;
+	width: 100vh;
+	padding-top: 4vh;
+	background: url("https://i.imgur.com/YJMzoTP.png") no-repeat;
+	background-position: center;
+	/* 4% might be centered */
 }
+
 #centerIm:hover {
-  
-    background: url("https://i.imgur.com/1cW3Jy1.png") no-repeat;
-    background-position: center;
+	background: url("https://i.imgur.com/1cW3Jy1.png") no-repeat;
+	background-position: center;
 }
+
 #title {
-    color: white;
-    margin: auto 1.3vh;
-  }
+	color: white;
+	margin: auto 1.3vh;
+}
+
 #titleSocials {
-    color: white;
-    margin: auto .65vh;
-    height: 3vh;
-  }
+	color: white;
+	margin: auto .65vh;
+	height: 3vh;
+}
+
 #titleSocialsEnd {
-  color: white;
-  margin: auto .65vh;
-  height: 3vh;
-  margin-right: 2.3vh;
+	color: white;
+	margin: auto .65vh;
+	height: 3vh;
+	margin-right: 2.3vh;
 }
+
 #titleEnd {
-    color: white;
-    margin: auto 1.3vh;
-    margin-right: 2.3vh;
-  }
-.filler {
-    flex-grow: 1;
-    min-width: 0;
-  }
-
-#title:link { text-decoration: none; }
-#title:hover {
-    text-decoration: none;
-    color: rgb(236,195,125)
+	color: white;
+	margin: auto 1.3vh;
+	margin-right: 2.3vh;
 }
 
-#titleEnd:link { text-decoration: none; }
+.filler {
+	flex-grow: 1;
+	min-width: 0;
+}
+
+#title:link {
+	text-decoration: none;
+}
+
+#title:hover {
+	text-decoration: none;
+	color: rgb(236, 195, 125)
+}
+
+#titleEnd:link {
+	text-decoration: none;
+}
+
 #titleEnd:hover {
-    text-decoration: none;
-    color: rgb(236,195,125)
+	text-decoration: none;
+	color: rgb(236, 195, 125)
 }
