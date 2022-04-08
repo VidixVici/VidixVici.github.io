@@ -94,11 +94,11 @@ scene.add(planeMesh)
 generatePlane()
 
 const light = new THREE.DirectionalLight(0xffffff, 1)
-light.position.set(0, -1, 3)
+light.position.set(0, -1, 1.9)
 scene.add(light)
 
 const backLight = new THREE.DirectionalLight(0xffffff, 1)
-backLight.position.set(0, 0, -3)
+backLight.position.set(0, 0, -1.9)
 scene.add(backLight)
 
 const mouse = {
