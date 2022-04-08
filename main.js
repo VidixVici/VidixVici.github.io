@@ -94,7 +94,7 @@ scene.add(planeMesh)
 generatePlane()
 
 const light = new THREE.DirectionalLight(0xffffff, 1)
-light.position.set(0, 0.5, 1.9)
+light.position.set(0, 0, 1.9)
 scene.add(light)
 
 const backLight = new THREE.DirectionalLight(0xffffff, 1)
