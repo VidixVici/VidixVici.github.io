@@ -36,6 +36,11 @@ body {
 	display: -webkit-flex;
 	display: flex;
 }
+.row2{
+	display: -webkit-flex;
+	display: flex;
+	background-color: whitesmoke;
+}
 
 .column1 {
 	-webkit-flex: 1;
