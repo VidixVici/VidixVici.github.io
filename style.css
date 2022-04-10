@@ -4,11 +4,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(9, 17, 29);
-  font-family: 'Nunito';
+	font-family: 'Nunito', sans-serif;
 }
 
 body {
-	font-family: 'Nunito';
+	font-family: 'Nunito', sans-serif;
 	font-weight: 100;
 }
 
