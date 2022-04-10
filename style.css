@@ -210,3 +210,12 @@ body {
 	text-decoration: none;
 	color: rgb(236, 195, 125)
 }
+
+#links:link {
+	text-decoration: none;
+}
+
+#links:hover {
+	text-decoration: none;
+	color: rgb(236, 195, 125)
+}
